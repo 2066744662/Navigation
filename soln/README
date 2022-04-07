@@ -1,0 +1,22 @@
+Name: Robbie Feng 
+SID: 1668372
+CCID: tianjun2
+CMPUT 275 Winter22
+
+Assignment Part 2
+
+Included Files:
+*Makefile
+*README
+*/server/server.cpp
+*/server/Makefile
+*/server/edmonton-roads-2.0.1.txt
+(And all files from Assignment part 1, and /map/ and /client/ directory)
+
+Running Instructions:
+    The server is written in C++. Client is provided in python.
+    Use command "make compile" to compile the compile and link all C++ files in /server/ subdirectory. 
+    Use command "make" while the console is in the /soln folder to run the server on a seperate terminal, 
+  and client on current terminal. Assume "server" has been compiled
+    Use command "make clean" to delete executables, objects and named pipes.
+
